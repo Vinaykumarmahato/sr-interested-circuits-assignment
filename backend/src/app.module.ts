@@ -11,7 +11,7 @@ import { Student } from './student/student.entity';
       port: 3306,
       username: 'root',
       password: 'ADVindiancoder@860964',
-      database: 'student_db',
+      database: 'sr_interested_circuits_db',
       entities: [Student],
       synchronize: true, // Auto-synchronize the database schema
     }),

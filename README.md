@@ -23,7 +23,7 @@ import { Student } from './student/student.entity';
       port: 3306,
       username: 'root',
       password: 'ADVindiancoder@860964',
-      database: 'student_db',
+      database: 'sr_interested_circuits_db',
       entities: [Student],
       synchronize: true, // Auto-synchronize the database schema
     }),
@@ -440,7 +440,7 @@ export const exportStudentsToExcel = (students: Student[], filename = 'students.
 2. Open your MySQL terminal or client (like MySQL Workbench).
 3. Run the following command to create the database:
    ```sql
-   CREATE DATABASE student_db;
+   CREATE DATABASE sr_interested_circuits_db;
    ```
 4. Ensure your MySQL root user has the password `ADVindiancoder@860964` as configured in the NestJS App Module.
 
