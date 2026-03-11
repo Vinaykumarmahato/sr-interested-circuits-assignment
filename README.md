@@ -43,7 +43,7 @@ Ensure you have MySQL installed. Open your terminal/workbench and run:
 ```sql
 CREATE DATABASE sr_interested_circuits_db;
 ```
-> 💡 **Tip:** Make sure your MySQL root user has the password `ADVindiancoder@860964` (per `backend/src/app.module.ts`).
+
 
 ### 2️⃣ Backend Execution (NestJS) 🟢
 Navigate to your backend directory and power up the API server:
